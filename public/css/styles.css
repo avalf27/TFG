@@ -1,0 +1,14 @@
+/* Archivo: styles.css */
+
+.btn-morado {
+    background-color: #6f42c1; /* Color morado */
+    color: #ffffff;            /* Texto blanco */
+    border: 1px solid #6f42c1; /* Borde morado para consistencia */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.btn-morado:hover {
+    background-color: #ffffff; /* Color blanco en hover */
+    color: #6f42c1;            /* Texto morado en hover */
+    border: 1px solid #6f42c1; /* Mantener borde morado */
+}
